@@ -37,7 +37,7 @@ VACIO
   4. Commit & Push (Git)
   5. Vuelta al paso 1.
 
-<u>Semanalmente (Fines de semana)</u>
+<span style='text-decoration: underline;'>Semanalmente (Fines de semana)</span>
 
 Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
 
