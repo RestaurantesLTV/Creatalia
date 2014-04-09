@@ -23,6 +23,7 @@ VACIO
       - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
         - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
+        - fonts/
       - img/
       - templates/ --> Tomas, si quieres dividir las paginas en trozos, hazlo aqui (Hasta que no hayamos definido la estructura de directorios no lo hagas) (Ej: header, body, footer, aside....)
 
