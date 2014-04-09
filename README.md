@@ -34,6 +34,7 @@ VACIO
   2. 
 
 ---- Planificacion ----
+
 Utilizaremos un modelo iterativo (Tengo que decidir todavía cual) para controlar el ciclo de vida del proyecto.
 Impondremos objetivos con fechas limities de entrega (semanales) para ver hasta donde se ha progresado y tener una referencia de lo que nos falta por hacer para completar el proyecto.
 
