@@ -30,14 +30,14 @@ VACIO
 
 <b>---- Workflow ----</b>
     
-Diariamente:
+<u>Diariamente</u>
   1. Programar
   2. Pruebas unitarias (PHPUnit)
   3. Documentar (ApiGen - NetBeans)
   4. Commit & Push (Git)
   5. Vuelta al paso 1.
 
-Semanalmente (Fines de semana):
+<u>Semanalmente (Fines de semana)</u>
 
 Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
 
