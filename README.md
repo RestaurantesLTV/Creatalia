@@ -11,14 +11,14 @@ VACIO
   - design/ --> En estas dos carpetas iran las plantillas HTML. NO hace falta dividrlas en trozos para prepararlo
                 para el Code Igniter. Esa tarea se hara posteriormente una vez la plantilla este finalizada, y dentro de                  la carpeta "src/"
     - front-end/
-          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+      - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
         - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
         - fonts/
       - img/
 
     - back-end/
-          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+      - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
         - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
         - fonts/
