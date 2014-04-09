@@ -44,6 +44,8 @@ Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
 
 <b> ---- Ramas Principales de Git ---- </b>
 
+Cada una de estas ramas principales pueden tener tanas subramas de subramas sean necesarias.
+
 - Master --> Rama principal de aplicacion. Limpia y funcional
 - Integration --> Si funciona bien la union de los trozos del proyecto, se pasara a Master.
 - Develop --> Rama de desarrollo (Donde trabajaremos). Una vez se asegurado el codigo de que sea funcional, se pasara a Integration donde juntaremos diferentes subramas de Develop a Integration (Probaremos de que la integracion de los modulos del proyecto vaya bien).
