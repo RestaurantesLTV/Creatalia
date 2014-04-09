@@ -1,5 +1,10 @@
 restaurantebrossa
 =================
+
+---- Requisitos de usuario ----
+
+VACIO
+
 ------------------------------Estructura de directorios--------------------------
   
   - docs/ --> Los datos del proyecto iran aqui.
@@ -8,8 +13,7 @@ restaurantebrossa
     - front-end/
     - back-end/
   
-                        ----Programacion---- (TODAVIA HAY QUE DECIDIR LA ESTRUCTURA. Cambiara cuando apliquemos la
-                                              estructura que nos impone CodeIgniter)
+                        ----Programacion---- (TODAVIA HAY QUE DECIDIR LA ESTRUCTURA. Este seccion se actualizara acorde cuando apliquemos la estructura que nos impone CodeIgniter)
 
   - src/ --> Aqui iran los archivos PHP principales
     - include/ --> Aqui iran los archivos de PHP auxiliares (de ayuda).
@@ -26,4 +30,15 @@ restaurantebrossa
 
 ---- Workflow ----
     
-  - d
+  1. Programar
+  2. 
+
+---- Planificacion ----
+Utilizaremos un modelo iterativo (Tengo que decidir todavía cual) para controlar el ciclo de vida del proyecto.
+Impondremos objetivos con fechas limities de entrega (semanales) para ver hasta donde se ha progresado y tener una referencia de lo que nos falta por hacer para completar el proyecto.
+
+Semana 1: 
+Semana 2:
+Semana 3:
+Semana 4:
+
