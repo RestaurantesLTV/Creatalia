@@ -20,10 +20,10 @@ restaurantebrossa
         - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
       - img/
-      - templates/ --> Tomas, si quieres dividir las paginas en trozos, hazlo aqui
+      - templates/ --> Tomas, si quieres dividir las paginas en trozos, hazlo aqui (Hasta que no hayamos definido la estructura de directorios no lo hagas)
 
 
 
                         ---- Workflow ----
     
-    
+  - d
