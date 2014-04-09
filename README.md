@@ -41,7 +41,7 @@ Semanalmente (Fines de semana):
 
 Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
 
----- Planificacion ----
+<b> ---- Planificacion ---- </b>
 
 Utilizaremos un modelo iterativo (Tengo que decidir todavía cual) para controlar el ciclo de vida del proyecto.
 Impondremos objetivos con fechas limities de entrega (semanales) para ver hasta donde se ha progresado y tener una referencia de lo que nos falta por hacer para completar el proyecto.
