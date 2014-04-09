@@ -3,7 +3,7 @@ restaurantebrossa
 ------------------------------Estructura de directorios--------------------------
   
   - docs/ --> Los datos del proyecto iran aqui.
-  - diseño/ --> En estas dos carpetas iran las plantillas HTML. NO hace falta dividrlas en trozos para prepararlo
+  - design/ --> En estas dos carpetas iran las plantillas HTML. NO hace falta dividrlas en trozos para prepararlo
                 para el Code Igniter. Esa tarea se hara posteriormente una vez la plantilla este finalizada, y dentro de                  la carpeta "src/"
     - front-end/
     - back-end/
