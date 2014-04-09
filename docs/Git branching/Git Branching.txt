@@ -1,0 +1,63 @@
+Comparaciones Controles de versiones: http://www.slideshare.net/djepyon/gitci
+
+Suponiendo que ya conoceis perfectamente los conceptos basicos de git, os paso el siguiente capitulo del libro oficial de git, que explica muy bien un punto muy importante que veo primordial (y carlos ya me dijo que lo utilicemos, aunque no estoy de acuerdo que nos obliga a hacer algo que incluso el me dijo que ni tiene ni idea) que es el tema de "branching" o de "crear ramas".
+Si lo hacemo es por que queremos y lo vemos util y conveniente para nuestro proyecto (y realmente lo es bastante), y no por que carlos nos obliga a utilizarlo.
+
+Aqui os dejo el enlace en cuestion desde 0:
+http://git-scm.com/book/es/Ramificaciones-en-Git
+http://www.genbetadev.com/herramientas/manejo-de-ramas-de-desarrollo-con-git
+
+Tomaos vuestro tiempo para hacer pruebas y absorber los conocimientos
+
+Sobre todo os tiene que quedar claro que son las siguientes dos cosas:
+- HEAD
+- MASTER
+
+si no teneis claro esto, no podreis trabajar con la ramas y tambien tener claro como Git almacena sus snapshots. Aqui un video:
+https://www.youtube.com/watch?v=3WJ_WM5qXg0
+
+-----Una vez acabeis de ver el video y leido la documentacion------
+- Para hotfixes (arreglar bugs de determinadas zonas de nuestra aplicacion). Y las zonas de codigo que arreglamos ( es decir, las zonas donde meteremos mano ) no se veran afectadas a la rama principal (Master) que se supone que es la zona que queremos mantener limpia siempre.
+
+- Otra funcionalidad util de las ramas, es poder trabajar en una caracteristica nueva o hotfix y no unirla al MASTER hasta que estamos seguros de que hemos acabado de programar esa caracteristica. La principal ventaja de esto, es que si tenemos que hacer Checkouts (Volver a una version anterior del codigo), no lo tendremos que hacer sobre la rama principal y enmarranarlo todo. Si tenemos la rama, hacemos los checkouts sobre la rama.
+
+----------------------
+Una vez acabeis de ver el video leed lo que viene de aqui en adelante
+Para las ramas podemos hacerlo utilizar para lo siguiente:
+
+-----------
+- La ultima cosa que hay que comentar y es muy importante, y es un modelo a seguir que vi en un video de branching de git, que ademas de las ramas que ya conoceis y creemos en el tiempo, hay una ramas base principales que deberiamos crear nosotros para nuestro trabajo.
+La rama de las que os hablo, son las siguientes:
+
+Modelos(Workflows) diferentes:
+
+1)
+
+2)
+
+Link mostrando los workflows y problemas que se dan:
+https://www.youtube.com/watch?v=BEXAx1qPm-o
+
+Podriamos hacer una mezacla de ambos, no?
+
+Premisas:
+-Mantener la linea principal (MASTER) limpia.
+-Hacer un "Merge" de una rama cuando hayamos acabado de hacer cambios y estemos seguros que podemos agregarla al MASTER.
+-----------------------Directrices y convenciones--------
+Tenemos que determinar directrices y convenciones de trabajo, que hablaremos y documentaremos en algun documento al que todo podamos acceder. No tan solo a nivel de git, me refiero a pautas de trabajo a nivel de programacion, y de como guardar los archivos en directorios, etc. 
+Me gustaria tambien tocar otros 2 puntos:
+- Crear nosotros una BD con informacion de nuestro clientes (nombre, tel, direccion, ...)
+- 
+- Documentaremos PHP con APIGEN (viene integrado con Netbeans)
+
+--------En Netbeans-------
+https://netbeans.org/kb/73/ide/git.html
+https://netbeans.org/projects/versioncontrol/pages/Git_ui
+https://netbeans.org/kb/docs/ide/git.html
+
+-------------------------Lo siguiente a branching-----------------
+Lo siguiente es el "Stashing", 6.3. Guardado rapido provisional:
+http://git-scm.com/book/es/Las-herramientas-de-Git-Guardado-r%C3%A1pido-provisional
+http://www.genbetadev.com/sistemas-de-control-de-versiones/stashing-con-git
+http://es.gitready.com/beginner/2009/01/10/stashing-your-changes.html
+http://www.gitguys.com/topics/temporarily-stashing-your-work/
