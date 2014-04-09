@@ -24,7 +24,7 @@ VACIO
         - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
       - img/
-      - templates/ --> Tomas, si quieres dividir las paginas en trozos, hazlo aqui (Hasta que no hayamos definido la estructura de directorios no lo hagas)
+      - templates/ --> Tomas, si quieres dividir las paginas en trozos, hazlo aqui (Hasta que no hayamos definido la estructura de directorios no lo hagas) (Ej: header, body, footer, aside....)
 
 
 
@@ -41,6 +41,14 @@ VACIO
 --Semanalmente (Fines de semana)--
 
 Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
+
+<b> ---- Ramas Principales de Git ---- </b>
+
+- Master --> Rama principal de aplicacion. Limpia y funcional
+- Integration: Si funciona bien la union de los trozos del proyecto, se pasara a Master.
+- Develop --> Rama de desarrollo (Donde trabajaremos). Una vez se asegurado el codigo de que sea funcional, se pasara a Integration donde juntaremos diferentes subramas de Develop a Integration (Probaremos de que la integracion de los modulos del proyecto vaya bien).
+- Feature --> Las caracteristicas que se vayan añadiendo nuevas iran aqui. Luego de probarlas y sean funcionales, se pasara a Develop.
+- Hotfix --> Rama dedica a crear parches para bugs. Una vez acabado se hara merge con otra rama.
 
 <b> ---- Planificacion ---- </b>
 
