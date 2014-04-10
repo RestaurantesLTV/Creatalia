@@ -40,7 +40,9 @@ VACIO
         - css/
           - fonts/
         - img/
+        
       -2/
+      
       -3.../
   
                         ----Programacion---- (TODAVIA HAY QUE DECIDIR LA ESTRUCTURA. Este seccion se actualizara acorde cuando apliquemos la estructura que nos impone CodeIgniter)
