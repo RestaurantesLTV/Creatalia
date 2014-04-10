@@ -10,19 +10,38 @@ VACIO
   - docs/ --> Los datos del proyecto iran aqui.
   - design/ --> En estas dos carpetas iran las plantillas HTML. NO hace falta dividrlas en trozos para prepararlo
                 para el Code Igniter. Esa tarea se hara posteriormente una vez la plantilla este finalizada, y dentro de                  la carpeta "src/"
-    - front-end/
-      - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-        - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
+
+    - empresa/
+      - front-end/
+          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+            - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
+        - css/
+          - fonts/
+        - img/
+      - back-end/
+        - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+          - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
       - css/
         - fonts/
       - img/
 
-    - back-end/
-      - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-        - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
-      - css/
-        - fonts/
-      - img/
+
+    - cliente/
+      -1/
+        - front-end/
+            - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+              - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
+          - css/
+            - fonts/
+          - img/
+        - back-end/
+          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
+            - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
+        - css/
+          - fonts/
+        - img/
+      -2/
+      -3.../
   
                         ----Programacion---- (TODAVIA HAY QUE DECIDIR LA ESTRUCTURA. Este seccion se actualizara acorde cuando apliquemos la estructura que nos impone CodeIgniter)
 
@@ -52,7 +71,7 @@ VACIO
 
 --Semanalmente (Fines de semana)--
 
-Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo.
+Se reuniran requisitos de usuario y se impondra un modelo iterativo de trabajo. Tambien se hara la memoria del proyecto (Destinguir entre memoria y documentacion)
 
 <b> ---- Ramas Principales de Git ---- </b>
 
