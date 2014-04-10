@@ -14,35 +14,59 @@ VACIO
   - design/ --> En estas dos carpetas iran las plantillas HTML. NO hace falta dividrlas en trozos para prepararlo
                 para el Code Igniter. Esa tarea se hara posteriormente una vez la plantilla este finalizada, y dentro de                  la carpeta "src/"
 
+
+    - assets/
+      - img/
+        - icons/
+      - js/
+        - lib/
+      - css/
+        - lib/
+        - fonts/
+      
+      
+      
     - empresa/
       - front-end/
-          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-            - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
-        - css/
-          - fonts/
-        - img/
+          - assets/
+            - img/
+              - icons/
+            - js/
+              - lib/
+            - css/
+              - lib/
+              - fonts/
       - back-end/
-        - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-          - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
-      - css/
-        - fonts/
-      - img/
+        - assets/
+          - img/
+            - icons/
+          - js/
+            - lib/
+          - css/
+            - lib/
+            - fonts/
 
 
     - cliente/
       - 1/
         - front-end/
-            - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-              - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
-          - css/
-            - fonts/
-          - img/
+            - assets/
+              - img/
+                - icons/
+              - js/
+                - lib/
+              - css/
+                - lib/
+                - fonts/
         - back-end/
-          - js/ --> Aqui iran los archivos de la logica de nuestra aplicacion.
-            - lib/ --> Aqui iran las librerias que utilicemos (ej: jQuery, Parallax...)
-        - css/
-          - fonts/
-        - img/
+          - assets/
+            - img/
+              - icons/
+            - js/
+              - lib/
+            - css/
+              - lib/
+              - fonts/
         
       - 2/
       
