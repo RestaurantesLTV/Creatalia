@@ -17,6 +17,7 @@ VACIO
 
     - assets/
       - img/
+        - photos/
         - icons/
       - js/
         - lib/
@@ -30,6 +31,7 @@ VACIO
       - front-end/
           - assets/
             - img/
+              - photos/
               - icons/
             - js/
               - lib/
@@ -39,6 +41,7 @@ VACIO
       - back-end/
         - assets/
           - img/
+            - photos/
             - icons/
           - js/
             - lib/
@@ -52,6 +55,7 @@ VACIO
         - front-end/
             - assets/
               - img/
+                - photos/
                 - icons/
               - js/
                 - lib/
@@ -61,6 +65,7 @@ VACIO
         - back-end/
           - assets/
             - img/
+              - photos/
               - icons/
             - js/
               - lib/
