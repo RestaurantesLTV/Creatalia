@@ -153,7 +153,7 @@
 				$(this).fadeIn(2500);	
 			});					
 		});
-*/
+*/	
 		$('#tabla-profesional').hide();
 		$('#tabla-premium').hide();
 		$('#tabla-basico').hide();
