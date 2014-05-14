@@ -93,13 +93,27 @@
 				}
 		});
 
+		$('#descripcion').children().hide();
+		$('#descripcion').children().next().hide();
+		$('#descripcion').children().next().hide();
    		$('.menu-modal').click(function(){
 			var ref = $(this).children().attr('href');
 			var id = $(this).children().attr('id');
-			var clase = $(this).attr('class');
-			$('.menu-modal').not(this).removeClass('active-verde');			
-			$("#"+id).parent().addClass('active-verde');				
-
+			$('#descripcion > *:not('+ref+')').hide();
+			if ( $(ref).not(":visible")){
+				$(ref).show();
+			}else{
+				$(ref).hide();
+			}
+		
+			/*
+			if( $(ref).not(":visible") && $('#descripcion > *') ) 
+				$(ref).slideToggle('slow');*/
+			/*$("#"+id).toggle(function() {
+				$("#"+id).parent().addClass('active-verde');
+			}, function() {
+				$("#"+id).parent().removeClass('active-verde');
+			});*/	
    		});
 /*
 		$('#lnk-basico').click(function() {
