@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creatalia Design</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- ************ Estilos CSS ****************** -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/main.css">
+
+	<!-- ************ /Estilos CSS ***************** -->
+
+
+  <!-- **************** Scripts ********************** -->
+    
+    <script src="js/raphael-min.js"></script>
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/jquery.lazylinepaint.min.js"></script>
+    <script src="js/main.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    
+
+  <!-- **************** /Scripts ********************* -->
+
+
+</head>
+<body>
+	 <nav class="navbar navbar-inverse">
+      <div class="container menu">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Cambiar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-brand"><a  href="index.html">Creatalia</a></p>
+        </div>
+        <div class="navbar-collapse collapse">
+          <!-- Elementos del menu aquí -->
+          <ul class="nav navbar-nav navbar-right">
+          	<li class="menuitem"><a href="#">INICIO</a></li>
+          	<li class="menuitem"><a href="#servicios">SERVICIOS</a></li>
+          	<li class="menuitem"><a href="#portfolio">PORTFOLIO</a></li>
+          	<li class="menuitem"><a href="#productos">PRODUCTOS</a></li>
+          	<li class="menuitem"><a href="#">ABOUT</a></li>
+          	<li class="menuitem"><a href="#">CONTACTO</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>	
+    <div id="slide">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   
+        <!-- Indicadores 
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>-->
+   
+        <!-- Diapositivas slider-->
+        <div class="carousel-inner">
+          <div class="item active">
+          <img src="img/slide1.jpg" alt="slide1">
+            <div class="carousel-caption">
+              <h1>CREATALIA</h1>
+            </div>
+          </div>
+
+          <div class="item">
+          <img src="img/slide2.jpg" alt="slide2">          
+            <div class="carousel-caption">
+              <h2>TIENES IDEAS?</h2>
+            </div>
+          </div>
+
+          <div class="item">
+          <img src="img/slide3.jpg" alt="slide3">
+            <div class="carousel-caption">
+              <h1>QUIERES CONVERTIRLAS? EN UNA WEB?</h1>
+            </div>
+          </div>
+        </div>
+
+   
+        <!-- Controles -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+  	</div><!-- .SLIDER -->
+    <div id="servicios" class="container">
+      <div class="service">        
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulos">
+          <h1>Servicios</h1>
+          <hr class="visible-xs visible-sm"/>
+        </div><!-- .SERVICIOS TITULO -->
+
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 servicios">
+          <div class="icon-container">
+            <div class="img-icon">
+              <img id="webdesign" src="img/icons/web-icon.png" alt="web" class="center-block webdesign">
+            </div>
+          </div><!-- .WEB DESIGN ICON -->
+          <h2>WEBDESIGN</h2>
+          <p>
+            Somos capaces de interiorizar las ideas que nos tranmiten, para crear una web con un diseño espectacular plasmando todas esas ideas.
+          </p>
+        </div><!-- .WEB DESIGN -->
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 servicios">
+          <div class="icon-container">
+            <div class="img-icon">
+              <img id="responsive" src="img/icons/uidesign.png" alt="web" class="center-block">
+            </div>
+          </div><!-- .RESPONSIVE ICON -->
+          <h2>RESPONSIVE</h2>
+          <p>
+            Adaptar y crear sitios visibles en cualquier dispositivo es nuestra especialidad. 
+          </p>
+          </div><!-- .RESPONSIVE -->
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 servicios">
+          <div class="icon-container">
+            <div class="img-icon">
+              <img id="plantillas" src="img/icons/prototipo.png" alt="web" class="center-block">
+            </div>
+          </div><!-- .PLANTILLAS ICON -->
+          <h2>PLANTILLAS</h2>
+          <p>
+            Programamos y maquetamos todos tus diseños en PSD, CMS, HTML / CSS / JQUERY.
+          </p>
+          </div><!-- .PLANTILLAS -->
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 servicios">
+          <div class="icon-container">
+            <div class="img-icon">
+              <img id="seo" src="img/icons/seo.png" alt="web" class="center-block">
+            </div>
+          </div><!-- .SEO ICON -->
+          <h2>SEO</h2>
+          <p>
+            Aparecer en los principales buscadores ofreciendo sus servicios cada vez más fácil. Confíen ese trabajo a nosotros y despreocúpate.
+          </p>
+          </div><!-- .SEO -->
+      </div><!-- .SERVICIOS -->
+    </div><!-- .SERVICIOS CONTAINER -->
+  <div class="jumbotron"> 
+    <div class="container"> 
+      <h1 class="text-right">Adáptate a las nuevas tecnologías...</h1>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <p class="text-left">Adaptamos cualquier web, para cualquier dispositivo. <br>Súbete al carro de las nuevas tecnologias y empieza por tu web...
+        </p> 
+        <p><a class="btn btn-success btn-md" role="button">Leer más</a></p> 
+      </div><!-- .JUMBOTRON TEXT -->
+      <div class="col-sm-3 col-md-3 col-lg-3"></div>
+      <div id="rs" class="col-sm-2 col-md-2 col-lg-2 col-lg-offset-2 hidden-xs"></div>
+    </div> <!-- .JUMBOTRON CONTAINER --> 
+ </div><!-- .JUMBOTRON -->
+  <div id="portfolio" class="container">       
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulos">
+          <h1>PORTFOLIO</h1>
+          <hr class="visible-xs visible-sm"/>
+      </div><!-- .PORTFOLIO-TITULO -->
+  </div><!-- .PORTFOLIO -->
+  <div id="productos" class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titulos">
+          <h1>PRODUCTOS</h1>
+          <hr class="visible-xs visible-sm"/>
+        </div><!-- .PRODUCTOS-TITULO -->
+        <div class="planes center-block">
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1 pack">            
+            <div class="pack-title text-center">
+              <p>
+                <h3>WEB STANDARD</h3>
+              </p>
+            </div><!-- .WEB_STANDARD-TITULO -->            
+            <div class="pack-precio text-center">
+              <h4>400 €</h4>
+            </div><!-- .WEB STANDARD-PRECIO -->
+            <div class="pack-list">
+              <div id="descripcion" class="oculto">
+                  <div class="pack-item">
+                    Diseño web estático básico.
+                  </div>
+                  <div class="pack-item">
+                    Inicio con Imágen estática.
+                  </div>
+                  <div class="pack-item">
+                    Enlaces a redes sociales.
+                  </div>
+                  <div class="pack-item">
+                    Optimiazción para buscadores. 
+                  </div>
+                  <div class="pack-item">
+                    Hasta un total de 10 páginas de contenido estático.
+                  </div>                  
+                  <div class="pack-item">
+                    Visualización correcta en todos los navegadores actuales.
+                  </div>
+                </div>
+                <div class="mas pack-item">
+                  <button id="btn-standard" type="button" class="btn btn-success boton">Ver más</button> 
+
+                  <button type="button" data-toggle="modal" href="#webstandard" class="btn btn-success oculto">+ Info</button>        
+                </div>
+              </div><!-- .PACK-LIST WEB STANDARD -->
+          </div><!-- .WEB STANDARD -->
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8  col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1 pack">
+            <div class="pack-title text-center">
+              <p>
+                <h3>WEB INTERMEDIA</h3>
+              </p>
+            </div><!-- .BUSINESS-TITULO -->           
+            <div class="pack-precio text-center">
+              <h4>600 €</h4>
+            </div><!-- .BUSINESS-PRECIO -->
+             <div class="pack-list">
+                <div id="descripcion" class="oculto">
+                  <div class="pack-item">
+                    Web auto-administrable.
+                  </div>
+                  <div class="pack-item">
+                    Optimizada para buscadores.
+                  </div>
+                  <div class="pack-item">
+                    Inicio completamente personalizado.
+                  </div>
+                  <div class="pack-item">
+                    Sección de Inicio con imágenes dinámicas.
+                  </div>
+                  <div class="pack-item">
+                    Sección Noticias.
+                  </div>
+                  <div class="pack-item">
+                    Sección Novedades.
+                  </div>
+                  <div class="pack-item">
+                    Vinculada con redes sociales.
+                  </div>
+                  <div class="pack-item">
+                    Visualización correcta en todos los navegadores actuales.
+                  </div>                  
+                  <div class="pack-item">
+                    Versión tablets y móviles.
+                  </div>
+                </div>
+                <div class="mas pack-item">
+                  <button id="btn-bussines" type="button" class="btn btn-success boton">Ver más</button>  
+
+                  <button type="button" data-toggle="modal" href="#webbusiness" class="btn btn-success oculto">+ Info</button>       
+                </div>
+              </div><!-- .PACK-LIST BUSINESS -->
+          </div><!-- .BUSINESS -->
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8  col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1 pack">
+            <div class="pack-title text-center">
+              <p>
+                <h3>WEB PREMIUM</h3>
+              </p>
+            </div><!-- .PACK-TITLE PREMIUM WEB -->           
+            <div class="pack-precio text-center">
+              <h4>895 €</h4>
+            </div><!-- .PACK-PRECIO PREMIUM WEB -->
+             <div class="pack-list">
+              <div id="descripcion" class="oculto">
+                  <div class="pack-item">
+                    Web auto-administrable.
+                  </div>
+                  <div class="pack-item">
+                    Optimizada para buscadores.
+                  </div>
+                  <div class="pack-item">
+                    Diferentes diseños avanzados para elegir.
+                  </div>
+                  <div class="pack-item">
+                    Maquetación avanzada de secciones.
+                  </div>
+                  <div class="pack-item">
+                    Portada, con imágenes dinámicas y slogans.
+                  </div>
+                  <div class="pack-item">
+                    Diseño 10 - 15 imagenes o banners.
+                  </div>
+                  <div class="pack-item">
+                    Mapa de localización de la empresa.
+                  </div>
+                  <div class="pack-item">
+                    Vinculada con redes sociales.
+                  </div>
+                  <div class="pack-item">
+                    Visualización correcta en todos los navegadores actuales.
+                  </div>
+                  <div class="pack-item">
+                    Versión para tablets y móviles.
+                  </div>
+                  <div class="pack-item">
+                    Sin límite de páginas de contenidos.
+                  </div>
+                </div>
+                <div class="mas pack-item">
+                  <button id="btn-premium" type="button" class="btn btn-success boton">Ver más</button> 
+
+                  <button type="button" data-toggle="modal" href="#webpremium" class="btn btn-success oculto">+ Info</button>        
+                </div>
+              </div><!-- .PACK-LIST PREMIUM WEB -->
+            </div><!-- .PREMIUM WEB -->
+          </div><!-- .PLANES -->
+        </div><!-- .PRODUCTOS -->
+        <div id="productos" class="container">        
+        <div class="planes center-block">
+            <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8  col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1 pack">
+            <div class="pack-title text-center">
+              <p>
+                <h3>WEB SHOP</h3>
+              </p>
+            </div><!-- .PACK-TITLE PREMIUM WEB -->           
+            <div class="pack-precio text-center">
+              <h4>1650 €</h4>
+            </div><!-- .PACK-PRECIO PREMIUM WEB -->
+             <div class="pack-list">
+              <div id="descripcion" class="oculto">
+                  <div class="pack-item">
+                    Gestión de productos.
+                  </div>
+                  <div class="pack-item">
+                    Gestión de clientes.
+                  </div>
+                  <div class="pack-item">
+                    Gestión de pedidos.
+                  </div>
+                  <div class="pack-item">
+                    Optimizada para buscadores.
+                  </div>
+                  <div class="pack-item">
+                    Propuestas de diseños avanzados.
+                  </div>
+                  <div class="pack-item">
+                    Maquetación avanzada de secciones.
+                  </div>
+                  <div class="pack-item">
+                    Portada impactante, con imágenes dinámicas con slogans.
+                  </div>
+                  <div class="pack-item">
+                    Diseño 10 imagenes o banners.
+                  </div>
+                  <div class="pack-item">
+                    Mapa de localización de la empresa.
+                  </div>
+                  <div class="pack-item">
+                    Vinculada con redes sociales.
+                  </div>
+                  <div class="pack-item">
+                    Visualización correcta en todos los navegadores actuales.
+                  </div>
+                  <div class="pack-item">
+                    Implementación de seguridad y protección frente ataques y spam.
+                  </div>
+                  <div class="pack-item">
+                    Versión tablets móviles.
+                  </div>
+                  <div class="pack-item">
+                    Sin límite de páginas de contenidos.            
+                  </div>
+                </div>
+                <div class="mas pack-item">
+                  <button id="btn-shop-premium" type="button" class="btn btn-success boton">Ver más</button> 
+
+                  <button type="button" data-toggle="modal" href="#webshop" class="btn btn-success oculto">+ Info</button>        
+                </div>
+              </div><!-- .PACK-LIST WEB SHOP -->
+            </div><!-- . WEB SHOP -->     
+            <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8  col-md-3 col-lg-3 col-md-offset-1 col-lg-offset-1 pack">
+            <div class="pack-title text-center">
+              <p>
+                <h3>MATENIMIENTO WEB</h3>
+              </p>
+            </div><!-- .PACK-TITLE PREMIUM WEB -->           
+            <div class="pack-precio text-center">
+              <h4>Desde 23€/h</h4>
+            </div><!-- .PACK-PRECIO PREMIUM WEB -->
+             <div class="pack-list">
+              <div id="descripcion" class="oculto">
+                  <div class="pack-item">
+                    Básico.
+                  </div>
+                  <div class="pack-item">
+                    Profesional.
+                  </div>
+                  <div class="pack-item">
+                   Premium.
+                  </div>                  
+                </div>
+                <div class="mas pack-item">
+                  <button id="btn-mantenimiento" type="button" class="btn btn-success boton">Ver más</button> 
+
+                  <button type="button" data-toggle="modal" href="#mantenimiento" class="btn btn-success oculto">+ Info</button>        
+                </div>
+              </div><!-- .PACK-LIST MANTENIMIENTO WEB -->
+            </div><!-- .MANTENIMIENTO WEB -->
+          </div><!-- .PLANES -->
+        </div><!-- .PRODUCTOS2 -->
+
+        <!-- POPUPS - MODALS -->
+          <div class="modal fade" id="webstandard" tabindex="-1" role="dialog" aria-labelledby="WEB-Standard" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-center">PACK - WEB STANDARD</h4>
+                </div>
+                <div class="modal-body">
+                   <h4><strong>¿Qué incluye?</strong></h4>
+                    <br>Diseño web estático básico.
+                    <br>Sección de Inicio con Imágen Estática.
+                    <br>Sección de Empresa.
+                    <br>Sección de Servicios (1 página).
+                    <br>Mapa de localización de la empresa.
+                    <br>Sección de Contacto.
+                    <br>Hasta 12 páginas de contenido adicional.
+
+                    <br><br><strong>Optimización para buscadores</strong>
+                    <br>Título, descripción y Keywords (Portada)
+                    <br>Alta en Google.
+
+                    <br><br><strong>Social</strong>
+                    <br>Botones de recomendación en redes sociales. 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success">Contratar</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+           </div><!-- .Moldal WEB STANDARD--> 
+            <div class="modal fade" id="webbusiness" tabindex="-1" role="dialog" aria-labelledby="WEB-Business" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-center">PACK - INTERMEDIA</h4>
+                </div>
+                <div class="modal-body">
+                  <h4><strong>¿Qué incluye?</strong></h4>
+                  <br>Elección del diseño que más te guste.
+                  <br>Sección de Inicio animada, con imágenes dinámicas.
+                  <br>Sección de Empresa.
+                  <br>Sección de Servicios (con hasta 5 categorías).
+                  <br>1 Galería de imágenes.
+                  <br>Mapa de localización de la empresa.
+                  <br>Sección de Contacto.
+                  <br>Sección Noticias.
+                  <br>Sección Novedades.
+                  <br>Hasta 20 páginas de contenido. 
+
+                  <br><br><strong>Optimización para buscadores</strong>
+                  <br>Optimización todas las páginas de la web para Buscadores.
+                  <br>Título, descripción y keywords en todas las páginas.
+                  <br>Alta en Google, Yahoo! y Bing. 
+
+                  <br><br><strong>Visualizable en:</strong>
+                  <br>Tablets.
+                  <br>Móviles.                 
+
+                  <br><br><strong>Social</strong>
+                  <br>Botones de recomendación en redes sociales.
+                  <br>Links a las redes sociales de la empresa.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success">Contratar</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+            </div><!-- .Moldal WEB BUSINESS--> 
+            <div class="modal fade" id="webpremium" tabindex="-1" role="dialog" aria-labelledby="WEB-Premium" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-center">PACK - WEB PREMIUM</h4>
+                </div>
+                <div class="modal-body">
+                  <h4><strong>¿Qué incluye?</strong></h4>
+
+                  <br>Varias propuestas de diseño avanzado.
+                  <br>Maquetación avanzada de secciones.
+                  <br>Portada, con imágenes dinámicas y slogans.
+                  <br>Sección Inicio
+                  <br>Sección de Empresa.
+                  <br>Servicios: Diseño de secciones avanzado. Hasta 10 páginas de productos.
+                  <br>Mapa de localización de la empresa.
+                  <br>Sección de Contacto.
+                  <br>Sección Novedades.
+                  <br>Sección Blog.
+                  <br>Galería de imágenes.
+                  <br>Sin límite de páginas de contenido.
+                   
+
+                  <br><br><strong>Optimización para todos los buscadores</strong>
+                  <br>Optimización todas las páginas de la web para buscadores más utilizados.
+                  <br>Estudio de las palabras clave proporcionadas por el cliente.
+                  <br>Título, descripción y keywords en todas las páginas.
+                  <br>Optimización de los textos del cliente con las palabras clave introducidas.
+                  <br>Mapa XML del sitio.
+                  <br>Etiquetas Alt en los enlaces de los menús de la web.
+                  <br>Etiquetas en las imágenes introducidas.
+                  <br>Alta en Google, Yahoo! y Bing.
+                  <br>Alta en Google Maps.
+                  <br>Estadísticas web avanzadas.
+                   
+
+                  <br><br><strong>Visualizable en:</strong>
+                  <br>Tablets.
+                  <br>Móviles.
+                   
+
+                  <br><br><strong>Social</strong>
+                  <br>Botones de recomendación en redes sociales.
+                  <br>Links a las redes sociales de la empresa.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success">Contratar</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+            </div><!-- .Moldal WEB PREMIUM--> 
+            <div class="modal fade" id="webshop" tabindex="-1" role="dialog" aria-labelledby="WEB-SHOP" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-center">PACK - WEB SHOP</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-pills nav-justified tabs">
+                    <li class="active-verde menu-pack">
+                      <a id="lnk-web-shop-inicial" href="#shopbasico">Web shop básica</a>
+                    </li>
+                    <li class="menu-pack">
+                      <a id="lnk-web-shop-profesional" href="#shopprofesional">Web Shop avanzada</a>
+                    </li>
+                    <li class="menu-pack">
+                      <a id="lnk-web-catalogo" href="#webcatalogo">Catálogo online</a>
+                    </li>
+                  </ul> 
+                  <div id="webshopbasico" class="visible">
+                    <h4><strong>¿Qué incluye?</strong></h4>
+
+                    <br>Propuestas de diseño avanzado.
+                    <br>Maquetación avanzada de secciones.
+                    <br>Portada impactante, con imágenes dinámicas con slogans.
+                    <br>Sección de Empresa.
+                    <br>Servicios: Diseño de secciones avanzado. Hasta 10 páginas de productos o servicios con galerías de imágenes.
+                    <br>Mapa de localización de la empresa.
+                    <br>Sección de Contacto.
+                    <br>Gestión de productos.
+                    <br>Gestión de clientes.
+                    <br>Gestión de pedidos.
+                    <br>Formas de pago: Paypal, transferencia bancaria y contrareembolso.
+                    <br>Estadísticas web.
+
+                     
+
+                    <br><br><strong>Optimización para buscadores</strong>
+                    <br>Optimización todas las páginas de la web para Buscadores
+                    <br>Estudio de las palabras clave proporcionadas por el cliente.
+                    <br>Título, descripción y keywords en todas las páginas.
+                    <br>Optimización de los textos del cliente con las palabras clave introducidas.
+                    <br>Mapa XML del sitio.
+                    <br>Etiquetas Alt en los enlaces de los menús de la web.
+                    <br>Etiquetas en las imágenes introducidas.
+                    <br>Alta en Google, Yahoo! y Bing.
+                    <br>Alta en Google Maps.
+                    <br>Estadísticas web avanzadas.
+                     
+
+                    <br><br><strong>Diseño responsive (Se adapta automáticamente para móviles. No hay que hacer zoom con el móvil o tablet para ver bien la web, sino que esta se adapta especialmente para verla en esos dispositivos)</strong>
+                    <<br>Tablets.
+                    <br>Móviles.                   
+
+                    <br><br><strong>Social</strong>
+                    <br>Botones de recomendación en redes sociales.
+                    <br>Links a las redes sociales de la empresa.
+                  </div>
+                </div><!-- ./WEBSHOPBASICO -->
+                 <div id="webshopavanzada" class="visible">
+                    <h4><strong>¿Qué incluye?</strong></h4>
+
+                    <br>Propuestas de diseño avanzado.
+                    <br>Maquetación avanzada de secciones.
+                    <br>Portada impactante, con imágenes dinámicas con slogans.
+                    <br>Sección de Empresa.
+                    <br>Servicios: Diseño de secciones avanzado. Hasta 10 páginas de productos o servicios con galerías de imágenes.
+                    <br>Mapa de localización de la empresa.
+                    <br>Sección de Contacto.
+                    <br>Gestión de productos.
+                    <br>Gestión de clientes.
+                    <br>Gestión de pedidos.
+                    <br>Formas de pago: Paypal, transferencia bancaria y contrareembolso.
+                    <br>Estadísticas web.
+
+                     
+
+                    <br><br><strong>Optimización para buscadores</strong>
+                    <br>Optimización todas las páginas de la web para Buscadores
+                    <br>Estudio de las palabras clave proporcionadas por el cliente.
+                    <br>Título, descripción y keywords en todas las páginas.
+                    <br>Optimización de los textos del cliente con las palabras clave introducidas.
+                    <br>Mapa XML del sitio.
+                    <br>Etiquetas Alt en los enlaces de los menús de la web.
+                    <br>Etiquetas en las imágenes introducidas.
+                    <br>Alta en Google, Yahoo! y Bing.
+                    <br>Alta en Google Maps.
+                    <br>Estadísticas web avanzadas.
+                     
+
+                    <br><br><strong>Diseño responsive (Se adapta automáticamente para móviles. No hay que hacer zoom con el móvil o tablet para ver bien la web, sino que esta se adapta especialmente para verla en esos dispositivos)</strong>
+                    <<br>Tablets.
+                    <br>Móviles.                   
+
+                    <br><br><strong>Social</strong>
+                    <br>Botones de recomendación en redes sociales.
+                    <br>Links a las redes sociales de la empresa.
+                  </div>
+                </div><!-- ./WEBSHOPAVANZADA -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success">Contratar</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+            </div><!-- .Moldal WEB SHOP--> 
+            <div class="modal fade" id="mantenimiento" tabindex="-1" role="dialog" aria-labelledby="MANTENIMIENTO-WEB" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-center">PACKS - MANTENIMIENTO WEB</h4>                  
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-pills nav-justified tabs">
+                    <li class="active-verde menu-modal">
+                      <a id="lnk-basico" href="#basico">Básico</a>
+                    </li>
+                    <li class="menu-modal">
+                      <a id="lnk-profesional" href="#profesional">Profesional</a>
+                    </li>
+                    <li class="menu-modal">
+                      <a id="lnk-premium" href="#premium">Premium</a>
+                    </li>
+                  </ul> 
+                  <div id="basico" class="oculto">
+                      <br><h4><strong>¿Qué incluye?</strong></h4>
+                      <br><strong>Cambios de hosting</strong>
+                      <br><br>Cambiar proveedor de Hosting.
+                      <br>Gestión integral de dominios y alojamientos web.
+                      <br>Gestión de las cuentas de correo electrónico brasociadas al dominio.
+                      <br>Migración de ficheros o base de datos.
+                      <br>Redireccionamiento de dominios o cuentas de correo.
+                      <br>Copias de seguridad.
+                      <br><br><strong>Consultas Técnicas/Formación</strong>
+                      <br><br>Consultoría de:
+                      <p class="sangria">
+                        <br>- De negocio y tiendas online.
+                        <br>- Posicionamiento web y SEO / SEM.
+                        <br>- Diseño y usabilidad web.
+                        <br>- Herramientas, procesos y servicios Web.
+                        <br>- Marketing online
+                        <br>- Community Manager
+                        <br>- Aplicaciones en dispositivos móviles
+                      </p class="sangria">
+                      <br>Formación sobre configuración e instalación Gestores de Contenidos (CMS).
+                      <br>Lenguajes de programación: Java, HTML5, CSS3, JQuery, Php, Javascript.
+                      <br>Asesoramiento Web profesional.
+                      <br><br><strong>Incorporación Contenidos</strong>
+                      <br><br>Incorporación de textos en todos los idiomas.
+                      <br>Redacción periodística de contenidos.
+                      <br>Incorporación de vídeos.
+                      <br>Incorporación de banner.
+                      <br>Se añaden nuevas secciones, opciones de menus, campos en los formularios.
+                      <br><br>
+                      <div class="tarifas-precios"> 
+                        <div class="container">
+                          <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11">
+                            <strong>Tarifas / Precios.</strong>
+                          </div>
+                          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">   <span id="lnk-basico" class="glyphicon glyphicon-chevron-down"></span>
+                            </button>                          
+                          </div>
+                        </div>                                        
+                      </div><!-- ./TARIFAS PRECIOS-->
+                      <br><br> 
+                      <table id="tabla-basico" class="table table-responsive text-center">
+                        <tr class="table-titulo">
+                          <td><strong>Tiempo</strong></td>
+                          <td><strong>Precio/h</strong></td>
+                          <td><strong>Periodicidad</strong></td>
+                          <td><strong>Descuento</strong></td>
+                        </tr>
+                        <tr>                          
+                          <td>20 h</td>                          
+                          <td>25 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td><span class="glyphicon glyphicon-remove"></span></td>                          
+                        </tr>
+                        <tr>                          
+                          <td>40 h</td>                          
+                          <td>25 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 8%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>60 h</td>                          
+                          <td>25 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 10%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>100 h</td>                          
+                          <td>25 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 12%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>160 h</td>                          
+                          <td>25 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 14%</td>                          
+                        </tr>  
+                      </table>
+                  </div><!-- ./PACK MANTENIMIENTO BASICO -->
+                  <div id="profesional" class="oculto">
+                      <br><h4><strong>¿Qué incluye?</strong></h4>
+                      <br><strong>Diseño Web</strong>
+                      <br><br>Diseño web para webs corporativas, portales web y tiendas online.
+                      <br>Diseño web para blogs, proyectos personalizados y redes sociales.
+                      <br>Aplicación de nuevos estilos a la web.
+                      <br>Adaptar la web para dispositivos móviles.
+                      <br><br><strong>Mejora de la calidad</strong>
+                      <br><br>Actualizaciones en los estandares de la página Web como pueden ser w3c.
+                      <p class="sangria">
+                        <br>- Validador de código html
+                        <br>- Validador de código css
+                      </p>
+                      <br>Optimización de su página Web a los distintos motores de búsqueda.
+                      <br>Solución de errores javascript.
+                      <br>Mejorar la velocidad de la web:
+                      <p class="sangria">
+                        <br>- Apoyándose en caché de consultas a base de datos.
+                        <br>- Utilizando la caché del servidor.
+                        <br>- Ofuscación y compresión de ficheros js y css.
+                      </p>
+                      <br><br><strong>Nuevos Servicios en la Web</strong>
+                      <br><br>Incluir nuevos servicios en la página Web, como pueden ser:
+                      <p class="sangria">
+                        <br>- Foros, Blogs, Chat, gestión de Redes Sociales
+                        <br>- Control de acceso a usuarios
+                        <br>- Servicio de Newsletter
+                        <br>- Mapa de Google con rutas y distancias
+                        <br>- Plataformas privadas de actualizacion en tiempo real de los contenidos de la Web
+                        <br>- Comunicación a otras plataformas a travás de Servicios Webs
+                        <br>- Interoperabilidad con otros sistemas de su empresa, ERPs, CRMs, etc.
+                        <br>- Creación de Catálogos
+                        <br>- Traducción de textos
+                        <br>- Asistentes Virtuales
+                        <br>- Sindicación de Noticias RSS
+                        <br>- Plataformas de venta de artículos o productos por Internet
+                        <br>- Creación de web accesible
+                      </p>
+                      <br>Generación de todo tipo de Informes.
+                      <br><br>
+                      <div class="tarifas-precios"> 
+                        <div class="container">
+                          <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11">
+                            <strong>Tarifas / Precios.</strong>
+                          </div>
+                          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">   <span id="lnk-profesional" class="glyphicon glyphicon-chevron-down"></span>
+                            </button>                          
+                          </div>
+                        </div>
+                                                
+                      </div><!-- ./TARIFAS PRECIOS-->
+                      <br><br> 
+                      <table id="tabla-profesional" class="table table-responsive text-center">
+                        <tr class="table-titulo">
+                          <td><strong>Tiempo</strong></td>
+                          <td><strong>Precio/h</strong></td>
+                          <td><strong>Periodicidad</strong></td>
+                          <td><strong>Descuento</strong></td>
+                        </tr>
+                        <tr>                          
+                          <td>20 h</td>                          
+                          <td>28 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td><span class="glyphicon glyphicon-remove"></span></td>                          
+                        </tr>
+                        <tr>                          
+                          <td>40 h</td>                          
+                          <td>28 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 8%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>60 h</td>                          
+                          <td>28 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 10%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>100 h</td>                          
+                          <td>28 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 12%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>160 h</td>                          
+                          <td>28 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 14%</td>                          
+                        </tr>  
+                      </table>                                       
+                  </div><!-- ./PACK MANTENIMIENTO PROFESIONAL -->
+                  <div id="premium" class="oculto">
+                    <br><h4><strong>¿Qué incluye?</strong></h4>
+                    <br><strong>Diseño Gráfico</strong>
+                    <br>Modificación y creación de identidad corporativa de empresa.
+                    <p class="sangria">
+                    <br>- Paleta de Colores.
+                    <br>- Tipos de letras.
+                    <br>- Imágenes y logos.
+                    <br>- Lemas o eslogan identificativos.
+                    </p>
+                    <br>Diseño publicitario.
+                    <br>Maquetación.
+                    <br>Diseño de banner, lototipos, tarjetas de visita y trípticos.
+                    <br><br><strong>Programación a medida</strong>
+                    <br>Mantenimiento y actualización de la tecnología informática de la página Web. Somos expertos en las últimas tendencias tecnológias que el mercado está impulsando.
+                    <br>Cloud Computing
+                    <br>Lenguajes de programación: C, C++, POO, PHP, Javascript, C#, Java, JQuery...
+                    <br><br><strong>Posicionamiento / SEO</strong>
+                    <br>Mejoramos el posicionamiento de la web.
+                    <br>Creación de informes y análisis de posicionamiento.
+                    <br>Optimización de la web y alta en buscadores.
+                    <br>Generación de tráfico a la web.
+                    <br>Creación de campañas de Google Adwords.
+                    <br><br>
+                    <div class="tarifas-precios"> 
+                        <div class="container">
+                          <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11">
+                            <strong>Tarifas / Precios.</strong>
+                          </div>
+                          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">   <span id="lnk-premium" class="glyphicon glyphicon-chevron-down"></span>
+                            </button>                          
+                          </div>
+                        </div>
+                                                
+                      </div><!-- ./TARIFAS PRECIOS-->
+                      <br><br> 
+                      <table id="tabla-premium" class="table table-responsive text-center">
+                        <tr class="table-titulo">
+                          <td><strong>Tiempo</strong></td>
+                          <td><strong>Precio/h</strong></td>
+                          <td><strong>Periodicidad</strong></td>
+                          <td><strong>Descuento</strong></td>
+                        </tr>                       
+                        <tr>                          
+                          <td>20 h</td>                          
+                          <td>32 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td><span class="glyphicon glyphicon-remove"></span></td>                          
+                        </tr>
+                        <tr>                          
+                          <td>40 h</td>                          
+                          <td>32 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 8%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>60 h</td>                          
+                          <td>32 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 10%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>100 h</td>                          
+                          <td>32 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 12%</td>                          
+                        </tr>
+                        <tr>                          
+                          <td>160 h</td>                          
+                          <td>32 €/h</td>                          
+                          <td>Mensual/Anual</td>                          
+                          <td>Dto. - 14%</td>                          
+                        </tr>  
+                      </table>                                     
+                  </div><!-- ./PACK MANTENIMIENTO PREMIUM -->
+                </div><!-- ./MODAL-BODY -->             
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-success">Contratar</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+            </div><!-- .Moldal MANTENIMIENTO--> 
+          </div><!-- /.POPUPS-MODALS -->
+          
+  <div class="container">
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

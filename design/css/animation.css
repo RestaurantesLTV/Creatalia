@@ -1,0 +1,21 @@
+/* Animaciones paquetes */
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes paquete
+	{
+		to{
+
+			-moz-box-shadow: 0px 13px 80px #04CA8E;
+			-webkit-box-shadow: 0px 13px 80px #04CA8E;
+			box-shadow: 0px 13px 100px #04CA8E;
+		}
+	}
+
+	/* Standard syntax */
+	@keyframes paquete
+	{
+		to{
+			-moz-box-shadow: 0px 13px 80px #04CA8E;
+			-webkit-box-shadow: 0px 13px 80px #04CA8E;
+			box-shadow: 0px 13px 80px #04CA8E;
+		}
+	}
