@@ -91,8 +91,8 @@
 					$("#"+id).text(texto);
 					$("#"+id).next().hide();
 				}
-		});
-
+			});
+		/*
 		$('#descripcion').children().hide();
 		$('#descripcion').children().next().hide();
 		$('#descripcion').children().next().hide();
@@ -104,7 +104,7 @@
 				$(ref).show();
 			}else{
 				$(ref).hide();
-			}
+			}*/
 		
 			/*
 			if( $(ref).not(":visible") && $('#descripcion > *') ) 
@@ -113,9 +113,9 @@
 				$("#"+id).parent().addClass('active-verde');
 			}, function() {
 				$("#"+id).parent().removeClass('active-verde');
-			});*/	
-   		});
-/*
+			});	
+   		});*/
+
 		$('#lnk-basico').click(function() {
 			$(this).parent().addClass('active-verde');			
 			$('#lnk-profesional').parent().removeClass('active-verde');
@@ -167,7 +167,7 @@
 				$(this).fadeIn(2500);	
 			});					
 		});
-*/	
+
 		$('#tabla-profesional').hide();
 		$('#tabla-premium').hide();
 		$('#tabla-basico').hide();
