@@ -177,6 +177,21 @@
 				$('.tarifas-precios').children().children().next().children().toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
 			});
 		});
+/*
+		$('.tomas').mouseenter(function() {
+			$(this).css({
+				'background-image':'url("./img/team/tomas-m.jpg")',
+				'background-position': '35% 15%',
+			});
+		});
+		$('.tomas').mouseleave(function() {
+			$(this).css({
+				'background-image':'url("./img/team/tomas-b.jpg")',
+				'background-size': '280px 486px',
+				'background-position': '35% 15%',
+				background-repeat: no-repeat; 
+			});
+		});*/
 	}); /* .DOCUMENT READY */ 
 })( jQuery );
     

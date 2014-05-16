@@ -228,7 +228,56 @@ table[class="table table-responsive text-center"]>tbody>tr[class="table-titulo"]
 .oculto{
 	display: none;
 }
-
+.about{
+	margin-top: 7%;
+	color: #fff;
+}
+#aboutus>h1>span{
+	font-family: "base";
+}
+.foto-about{
+	width: 300px;
+	height: 300px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+	margin-top: 10%;
+	background-color: #f3eef2;
+}
+.nombre{
+	font-size: 40px;
+	margin-top: 2%;
+	color: #00ffa5;
+}
+.puesto{
+	margin-top: -1%;
+	font-size: 20px;
+	color: #ddd7da;
+}
+.descripcion{
+	margin-top: 4%;
+}
+.tomas{
+	background-image: url("../img/team/tomas-b.jpg");
+	background-size: 280px 486px;
+	background-position: 35% 15%;
+	background-repeat: no-repeat;  
+}
+#tomas:hover>.tomas{
+	background-image: url("../img/team/tomas-m.jpg");
+	background-size: 280px 486px;
+	background-position: 10% 40%;
+	background-repeat: no-repeat;  
+}
+#skills{
+	color: #fff;
+}
+.skills1{
+	margin-top: 5%;
+}
+.skills2{
+	margin-top: 5%;
+}
 
 
 
