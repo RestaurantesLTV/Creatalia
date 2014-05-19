@@ -191,7 +191,7 @@
 				'background-position': '35% 15%',
 				background-repeat: no-repeat; 
 			});
-		});*/
+		});*/		
 	}); /* .DOCUMENT READY */ 
 })( jQuery );
     

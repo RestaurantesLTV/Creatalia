@@ -263,7 +263,7 @@ table[class="table table-responsive text-center"]>tbody>tr[class="table-titulo"]
 	background-position: 35% 15%;
 	background-repeat: no-repeat;  
 }
-#tomas:hover>.tomas{
+.tomas:hover{
 	background-image: url("../img/team/tomas-m.jpg");
 	background-size: 280px 486px;
 	background-position: 10% 40%;
@@ -278,8 +278,40 @@ table[class="table table-responsive text-center"]>tbody>tr[class="table-titulo"]
 .skills2{
 	margin-top: 5%;
 }
-
-
+.contacto{
+	margin-top: 5%;
+}
+#contacto>form{
+	margin-top: 3%;
+}
+#footer{
+	margin-top: 3%;
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+.footer-row{
+	border-top: 1px solid #818181;
+	background-color: #262626;
+	width: 100%;
+}
+.footer{
+	margin-top: 3%;
+}
+.footer-titulo{
+	font-family: "base";
+	font-size: 26px;
+	color: #a2a5a5;
+}
+.footer-titulo>span{
+	font-size: 15px;
+	vertical-align: super;
+}
+.footer-datos{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #989898;
+}
 
 
 
